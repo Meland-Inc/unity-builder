@@ -9,6 +9,7 @@ class Platform {
       StandaloneWindows: 'StandaloneWindows',
       StandaloneWindows64: 'StandaloneWindows64',
       StandaloneLinux64: 'StandaloneLinux64',
+      LinuxHeadlessSimulation: 'LinuxHeadlessSimulation',
       iOS: 'iOS',
       Android: 'Android',
       WebGL: 'WebGL',

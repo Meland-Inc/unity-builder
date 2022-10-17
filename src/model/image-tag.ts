@@ -94,6 +94,7 @@ class ImageTag {
         }
 
         return windows;
+      case Platform.types.LinuxHeadlessSimulation:
       case Platform.types.StandaloneLinux64: {
         // Unity versions before 2019.3 do not support il2cpp
         if (major >= 2020 || (major === 2019 && minor >= 3)) {
