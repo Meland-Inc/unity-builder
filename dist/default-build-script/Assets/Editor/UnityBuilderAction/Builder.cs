@@ -34,7 +34,8 @@ namespace UnityBuilderAction
         scenes = scenes,
         locationPathName = options["customBuildPath"],
         target = (BuildTarget) Enum.Parse(typeof(BuildTarget), options["buildTarget"]),
-        options = buildOptions
+        options = buildOptions,
+        subtarget = (int)StandaloneBuildSubtarget.Server
       };
 
       // Set version for this build
